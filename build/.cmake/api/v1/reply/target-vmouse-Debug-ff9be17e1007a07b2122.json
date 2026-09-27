@@ -11,6 +11,7 @@
 		"commands" : 
 		[
 			"add_executable",
+			"target_link_libraries",
 			"target_include_directories"
 		],
 		"files" : 
@@ -25,13 +26,19 @@
 			{
 				"command" : 0,
 				"file" : 0,
-				"line" : 10,
+				"line" : 8,
 				"parent" : 0
 			},
 			{
 				"command" : 1,
 				"file" : 0,
-				"line" : 14,
+				"line" : 17,
+				"parent" : 0
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 12,
 				"parent" : 0
 			}
 		]
@@ -53,8 +60,8 @@
 			"includes" : 
 			[
 				{
-					"backtrace" : 2,
-					"path" : "/Users/sid/Projects/C_HW_PROJECTS/FW/hid-mouse/descriptors"
+					"backtrace" : 3,
+					"path" : "/Users/sid/Projects/C_HW_PROJECTS/FW/hid-mouse/include"
 				}
 			],
 			"language" : "CXX",
@@ -76,10 +83,31 @@
 			{
 				"fragment" : "-Wl,-search_paths_first -Wl,-headerpad_max_install_names",
 				"role" : "flags"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "-framework IOKit",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "-framework CoreFoundation",
+				"role" : "libraries"
 			}
 		],
 		"language" : "CXX"
 	},
+	"linkLibraries" : 
+	[
+		{
+			"backtrace" : 2,
+			"fragment" : "-framework IOKit"
+		},
+		{
+			"backtrace" : 2,
+			"fragment" : "-framework CoreFoundation"
+		}
+	],
 	"name" : "vmouse",
 	"nameOnDisk" : "vmouse",
 	"paths" : 

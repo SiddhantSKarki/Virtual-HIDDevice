@@ -10,7 +10,7 @@
 					"jsonFile" : "directory-.-Debug-b23a0b23c080df4d29ba.json",
 					"minimumCMakeVersion" : 
 					{
-						"string" : "4.4"
+						"string" : "4.3"
 					},
 					"projectIndex" : 0,
 					"source" : ".",
@@ -40,7 +40,7 @@
 				{
 					"directoryIndex" : 0,
 					"id" : "vmouse::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-vmouse-Debug-382c69b96eb13cbe4e40.json",
+					"jsonFile" : "target-vmouse-Debug-ff9be17e1007a07b2122.json",
 					"name" : "vmouse",
 					"projectIndex" : 0
 				}

@@ -4,7 +4,7 @@
 # compile CXX with /usr/bin/clang++
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/Users/sid/Projects/C_HW_PROJECTS/FW/hid-mouse/descriptors
+CXX_INCLUDES = -I/Users/sid/Projects/C_HW_PROJECTS/FW/hid-mouse/include
 
 CXX_FLAGSarm64 = -g -arch arm64
 

@@ -1,7 +1,7 @@
 [
 {
   "directory": "/Users/sid/Projects/C_HW_PROJECTS/FW/hid-mouse/build",
-  "command": "/usr/bin/clang++  -I/Users/sid/Projects/C_HW_PROJECTS/FW/hid-mouse/descriptors -g -arch arm64 -o CMakeFiles/vmouse.dir/src/main.cpp.o -c /Users/sid/Projects/C_HW_PROJECTS/FW/hid-mouse/src/main.cpp",
+  "command": "/usr/bin/clang++  -I/Users/sid/Projects/C_HW_PROJECTS/FW/hid-mouse/include -g -arch arm64 -o CMakeFiles/vmouse.dir/src/main.cpp.o -c /Users/sid/Projects/C_HW_PROJECTS/FW/hid-mouse/src/main.cpp",
   "file": "/Users/sid/Projects/C_HW_PROJECTS/FW/hid-mouse/src/main.cpp",
   "output": "CMakeFiles/vmouse.dir/src/main.cpp.o"
 }

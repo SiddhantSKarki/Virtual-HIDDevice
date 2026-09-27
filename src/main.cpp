@@ -6,7 +6,7 @@
 #include <thread>
 #include <chrono>
 
-#include "mouse_descriptor.hpp"
+#include "descriptors/MouseDescriptor.hpp"
 
 
 int main(int argc, char* argv[]) {
