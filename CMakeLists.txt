@@ -9,9 +9,9 @@ add_executable(vmouse
     ${CMAKE_SOURCE_DIR}/src/device.cpp
 )
 
-# add_executable(vhost
-#     ${CMAKE_SOURCE_DIR}/src/host.cpp
-# )
+add_executable(vhost
+    ${CMAKE_SOURCE_DIR}/src/host.cpp
+)
 
 target_include_directories(vmouse PRIVATE
     ${CMAKE_SOURCE_DIR}/include
