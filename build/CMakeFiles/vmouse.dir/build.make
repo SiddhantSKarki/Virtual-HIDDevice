@@ -72,28 +72,28 @@ include CMakeFiles/vmouse.dir/flags.make
 CMakeFiles/vmouse.dir/codegen:
 .PHONY : CMakeFiles/vmouse.dir/codegen
 
-CMakeFiles/vmouse.dir/src/main.cpp.o: CMakeFiles/vmouse.dir/flags.make
-CMakeFiles/vmouse.dir/src/main.cpp.o: /Users/sid/Projects/C_HW_PROJECTS/FW/hid-mouse/src/main.cpp
-CMakeFiles/vmouse.dir/src/main.cpp.o: CMakeFiles/vmouse.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/sid/Projects/C_HW_PROJECTS/FW/hid-mouse/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/vmouse.dir/src/main.cpp.o"
-	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/vmouse.dir/src/main.cpp.o -MF CMakeFiles/vmouse.dir/src/main.cpp.o.d -o CMakeFiles/vmouse.dir/src/main.cpp.o -c /Users/sid/Projects/C_HW_PROJECTS/FW/hid-mouse/src/main.cpp
+CMakeFiles/vmouse.dir/src/device.cpp.o: CMakeFiles/vmouse.dir/flags.make
+CMakeFiles/vmouse.dir/src/device.cpp.o: /Users/sid/Projects/C_HW_PROJECTS/FW/hid-mouse/src/device.cpp
+CMakeFiles/vmouse.dir/src/device.cpp.o: CMakeFiles/vmouse.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/sid/Projects/C_HW_PROJECTS/FW/hid-mouse/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/vmouse.dir/src/device.cpp.o"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/vmouse.dir/src/device.cpp.o -MF CMakeFiles/vmouse.dir/src/device.cpp.o.d -o CMakeFiles/vmouse.dir/src/device.cpp.o -c /Users/sid/Projects/C_HW_PROJECTS/FW/hid-mouse/src/device.cpp
 
-CMakeFiles/vmouse.dir/src/main.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/vmouse.dir/src/main.cpp.i"
-	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/sid/Projects/C_HW_PROJECTS/FW/hid-mouse/src/main.cpp > CMakeFiles/vmouse.dir/src/main.cpp.i
+CMakeFiles/vmouse.dir/src/device.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/vmouse.dir/src/device.cpp.i"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/sid/Projects/C_HW_PROJECTS/FW/hid-mouse/src/device.cpp > CMakeFiles/vmouse.dir/src/device.cpp.i
 
-CMakeFiles/vmouse.dir/src/main.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/vmouse.dir/src/main.cpp.s"
-	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/sid/Projects/C_HW_PROJECTS/FW/hid-mouse/src/main.cpp -o CMakeFiles/vmouse.dir/src/main.cpp.s
+CMakeFiles/vmouse.dir/src/device.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/vmouse.dir/src/device.cpp.s"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/sid/Projects/C_HW_PROJECTS/FW/hid-mouse/src/device.cpp -o CMakeFiles/vmouse.dir/src/device.cpp.s
 
 # Object files for target vmouse
 vmouse_OBJECTS = \
-"CMakeFiles/vmouse.dir/src/main.cpp.o"
+"CMakeFiles/vmouse.dir/src/device.cpp.o"
 
 # External object files for target vmouse
 vmouse_EXTERNAL_OBJECTS =
 
-vmouse: CMakeFiles/vmouse.dir/src/main.cpp.o
+vmouse: CMakeFiles/vmouse.dir/src/device.cpp.o
 vmouse: CMakeFiles/vmouse.dir/build.make
 vmouse: CMakeFiles/vmouse.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/Users/sid/Projects/C_HW_PROJECTS/FW/hid-mouse/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable vmouse"

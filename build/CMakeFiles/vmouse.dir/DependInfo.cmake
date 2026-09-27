@@ -8,7 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/Users/sid/Projects/C_HW_PROJECTS/FW/hid-mouse/src/main.cpp" "CMakeFiles/vmouse.dir/src/main.cpp.o" "gcc" "CMakeFiles/vmouse.dir/src/main.cpp.o.d"
+  "/Users/sid/Projects/C_HW_PROJECTS/FW/hid-mouse/src/device.cpp" "CMakeFiles/vmouse.dir/src/device.cpp.o" "gcc" "CMakeFiles/vmouse.dir/src/device.cpp.o.d"
   )
 
 # Targets to which this target links which contain Fortran sources.

@@ -1,1 +1,1 @@
-/usr/bin/clang++ -g -arch arm64 -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/vmouse.dir/src/main.cpp.o -o vmouse  -framework IOKit -framework CoreFoundation
+/usr/bin/clang++ -g -arch arm64 -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/vmouse.dir/src/device.cpp.o -o vmouse

@@ -6,16 +6,14 @@ set(CXX_STANDARD 20)
 set(CXX_STANDARD_REQUIRED 20)
 
 add_executable(vmouse
-    ${CMAKE_SOURCE_DIR}/src/main.cpp
+    ${CMAKE_SOURCE_DIR}/src/device.cpp
 )
+
+# add_executable(vhost
+#     ${CMAKE_SOURCE_DIR}/src/host.cpp
+# )
 
 target_include_directories(vmouse PRIVATE
     ${CMAKE_SOURCE_DIR}/include
-
-)
-
-target_link_libraries(vmouse PRIVATE
-    "-framework IOKit"
-    "-framework CoreFoundation"
 
 )

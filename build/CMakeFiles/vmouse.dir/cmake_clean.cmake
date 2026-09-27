@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/vmouse.dir/src/main.cpp.o"
-  "CMakeFiles/vmouse.dir/src/main.cpp.o.d"
+  "CMakeFiles/vmouse.dir/src/device.cpp.o"
+  "CMakeFiles/vmouse.dir/src/device.cpp.o.d"
   "vmouse"
   "vmouse.pdb"
 )

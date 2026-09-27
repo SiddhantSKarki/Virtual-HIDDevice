@@ -136,29 +136,29 @@ vmouse/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/vmouse.dir/build.make CMakeFiles/vmouse.dir/build
 .PHONY : vmouse/fast
 
-src/main.o: src/main.cpp.o
-.PHONY : src/main.o
+src/device.o: src/device.cpp.o
+.PHONY : src/device.o
 
 # target to build an object file
-src/main.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/vmouse.dir/build.make CMakeFiles/vmouse.dir/src/main.cpp.o
-.PHONY : src/main.cpp.o
+src/device.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/vmouse.dir/build.make CMakeFiles/vmouse.dir/src/device.cpp.o
+.PHONY : src/device.cpp.o
 
-src/main.i: src/main.cpp.i
-.PHONY : src/main.i
+src/device.i: src/device.cpp.i
+.PHONY : src/device.i
 
 # target to preprocess a source file
-src/main.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/vmouse.dir/build.make CMakeFiles/vmouse.dir/src/main.cpp.i
-.PHONY : src/main.cpp.i
+src/device.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/vmouse.dir/build.make CMakeFiles/vmouse.dir/src/device.cpp.i
+.PHONY : src/device.cpp.i
 
-src/main.s: src/main.cpp.s
-.PHONY : src/main.s
+src/device.s: src/device.cpp.s
+.PHONY : src/device.s
 
 # target to generate assembly for a file
-src/main.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/vmouse.dir/build.make CMakeFiles/vmouse.dir/src/main.cpp.s
-.PHONY : src/main.cpp.s
+src/device.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/vmouse.dir/build.make CMakeFiles/vmouse.dir/src/device.cpp.s
+.PHONY : src/device.cpp.s
 
 # Help Target
 help:
@@ -170,9 +170,9 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... vmouse"
-	@echo "... src/main.o"
-	@echo "... src/main.i"
-	@echo "... src/main.s"
+	@echo "... src/device.o"
+	@echo "... src/device.i"
+	@echo "... src/device.s"
 .PHONY : help
 
 
